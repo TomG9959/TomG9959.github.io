@@ -3,11 +3,11 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import datetime
 
 # Spotify API credentials
-CLIENT_ID = 'your_client_id'
-CLIENT_SECRET = 'your_client_secret'
+CLIENT_ID = '7b9f85bae9ba4792937d8b84806c5b98'
+CLIENT_SECRET = '1cc4f32f2c4643ed9f2475363efbf7c8'
 
 # Initialize Spotipy client
-auth_manager = SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
+auth_manager = SpotifyClientCredentials(client_id=7b9f85bae9ba4792937d8b84806c5b98, client_secret=1cc4f32f2c4643ed9f2475363efbf7c8)
 sp = spotipy.Spotify(auth_manager=auth_manager)
 
 def create_playlist(theme, name, description):
